@@ -38,9 +38,9 @@ Used to investigate the approximation of steady-state solutions.
 
 A representative parabolic PDE:
 
-\[
+$$
 \frac{\partial u}{\partial t}-\nabla^2u=f(x,y,t)
-\]
+$$
 
 Used to investigate time-dependent diffusion problems.
 
@@ -183,8 +183,6 @@ PINNs/
 ├── README.md
 └── requirements.txt
 ```
-
-*This is a suggested structure. Adjust the filenames and folders to match the actual repository.*
 
 ## 🔬 Research Focus
 

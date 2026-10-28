@@ -28,9 +28,9 @@ The framework considers three benchmark PDEs:
 
 A representative elliptic PDE:
 
-\[
+$$
 -\nabla^2 u(x,y)=f(x,y)
-\]
+$$
 
 Used to investigate the approximation of steady-state solutions.
 
@@ -48,9 +48,9 @@ Used to investigate time-dependent diffusion problems.
 
 A representative hyperbolic PDE:
 
-\[
+$$
 \frac{\partial^2u}{\partial t^2}-\nabla^2u=f(x,y,t)
-\]
+$$
 
 Used to investigate time-dependent wave propagation.
 
@@ -60,9 +60,9 @@ The implementation uses analytical solutions to construct consistent forcing ter
 
 The current domain is a rhombus defined by
 
-\[
+$$
 \Omega=\{(x,y): |x|+|y|<1\}.
-\]
+$$
 
 A Signed Distance Function (SDF) helps identify points inside and outside the domain. This allows the computational grid and finite difference stencils to account for the non-rectangular geometry.
 
@@ -72,9 +72,9 @@ A Signed Distance Function (SDF) helps identify points inside and outside the do
 
 A fully connected neural network approximates the unknown solution:
 
-\[
+$$
 u_\theta(x,y,t)\approx u(x,y,t),
-\]
+$$
 
 where \(\theta\) represents the trainable network parameters.
 

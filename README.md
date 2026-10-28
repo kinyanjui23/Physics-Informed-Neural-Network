@@ -107,7 +107,7 @@ The models are evaluated using:
 
 | Metric | Purpose |
 |---|---|
-| Relative \(L^2\) error | Measures prediction error relative to the analytical solution |
+| Relative $$\(L^2\)$$ error | Measures prediction error relative to the analytical solution |
 | Mean Absolute Error (MAE) | Measures average absolute prediction error |
 | Maximum Absolute Error | Measures the largest absolute error |
 | Training Loss | Tracks optimization progress |
